@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Contracts;
-
-namespace Exercicio3
+﻿namespace Exercicio3
 {
     public class Casa
     {
@@ -14,5 +12,6 @@ namespace Exercicio3
         public Rua Rua { get; set; }
         public int Numero { get; set; }
         public int TotalDeCriancas { get; set; }
+        
     }
 }
